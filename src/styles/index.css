@@ -1,0 +1,230 @@
+.main__container{
+    background-color: var(--color__grey1);
+    width: 100vw;  
+}
+
+.introduction__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 900px;
+    gap: 58px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main__container > .introduction__container > .title--large{
+    color:var(--color__grey5);
+}
+
+.main__container > .introduction__container > .title--large > span {
+    color: var(--brand__color--primary);
+}
+
+.main__container > .introduction__container > .text--medium{
+    color: var(--color__grey3);
+    width: 800px;
+    height: 60px;
+}
+
+.main__container > .introduction__container > .button__about{
+    height: 60px;
+    display: flex;
+    width: 133px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: var(--color__grey5);
+    margin-top: 10px;
+    cursor: alias;
+    background-color: var(--brand__color--primary);
+}
+
+.main__container > .introduction__container > .button__about:hover{
+    background-color: var(--color__grey5);
+    color: var(--brand__color--secondary);
+}
+
+.main__container > .description__container{
+    background-color: var(--color__grey0);
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}    
+
+.main__container > .description__container > .title--medium{
+    color: var(--color__grey5);
+}
+
+.main__container > .description__container > .text--medium{
+    color: var(--color__grey5);
+    width: 611px;
+    height: 120px;
+}
+
+.sectionQuestions__container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 74px; 
+}
+
+.faq__container{
+    width: 473px;
+}
+
+.faq__container > .title--medium{
+    color: var(--color__grey5);
+
+}
+.faq__container > .text--small{
+    color: var(--color__grey4);
+    margin-top: 14px;
+}
+
+.faq__container > .button__ingress{
+    width: 241px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: var(--color__grey5);
+    cursor: alias;
+    background-color: var(--brand__color--primary);
+    margin-top: 20px;
+}
+
+.faq__container > .button__ingress:hover{
+    background-color: var(--color__grey5);
+    color: var(--brand__color--secondary);
+}
+
+.questions__container{
+    width: 611px;
+    height: 848px;
+    text-align: center;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+    direction: ltr;
+}
+
+.questions__container > span > h3{
+    color: var(--color__grey5);
+}
+
+.questions__container > span > p{
+    color: var(--color__grey4);
+    margin-top: 22px;
+    text-align: left;
+}
+.sectionFeedbacks__container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    padding: 100px;
+    flex-direction: row;
+}
+.feedbacks__container{
+    height: 840px;
+    width: 750px;
+}
+.card__container{
+    height: 420px;
+    width: 446px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 52px;
+    gap: 35px;
+    background-color: var( --brand__color--primary);
+    color: var(--color__grey5);
+}
+
+
+.list__content1{
+    display: flex;
+    justify-content:space-between;
+}
+
+.list__content2{
+    display: flex;
+    justify-content:space-between;
+}
+
+.list__content3{
+    display: flex;
+    justify-content:space-between;
+}
+
+.list__content4{
+    display: flex;
+    justify-content:space-between;
+}
+
+.list__container1{
+    list-style: none;
+}
+
+.list__container2{
+    list-style: none;
+    margin-top: 78px;
+}
+
+.list__container3{
+    list-style: none;
+    margin-top: 78px;
+}
+
+.list__container4{
+    list-style: none;
+    margin-top: 78px;
+}
+.list__content1 > span {
+    width: 185px;
+}
+
+.list__content2 > span {
+    width: 185px; 
+}
+
+.list__content3 > span {
+    width: 185px; 
+}
+
+.list__content4 > span {
+    width: 185px; 
+}
+
+.list__container1 > .list__content1 > p{
+    width: 492px;
+    color: var(--color__grey4);
+} 
+
+.list__container2 > .list__content2 > p{
+    width: 492px;
+    color: var(--color__grey4);
+} 
+
+.list__container3 > .list__content3 > p{
+    width: 492px;
+    color: var(--color__grey4);
+} 
+
+.list__container4 > .list__content4 > p{
+    width: 492px;
+    color: var(--color__grey4);
+} 
+
+.list__container > li > div > span > h3{
+    color: var(--color__grey5);
+}
+
+.list__container > li > div > span > p{
+    color: var(--color__grey4);
+}

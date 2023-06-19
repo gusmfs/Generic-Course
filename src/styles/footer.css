@@ -1,0 +1,14 @@
+.footer__container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color__grey0);
+    height: 120px;
+    padding: 50px;
+}
+
+.footer__container > .title__small{
+    color: var(--color__grey5);
+
+}

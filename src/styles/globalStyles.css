@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Inter:wght@400;500;700&display=swap');
+:root{
+    --brand__color--primary: #4C6EF5;
+    --brand__color--secondary: #364FC7;
+
+    --color__grey0: #191C1F;
+    --color__grey1: #212529;
+    --color__grey2: #343A40;
+    --color__grey3: #ADB5BD;
+    --color__grey4: #CED4DA;
+    --color__grey5: #F8F9FA; 
+    
+    --font__family: 'Inter' , sans-serif;
+}
+
+.title--large{
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 72px;
+}
+
+.title--medium{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 64px;
+}
+
+.title--small{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.text--large{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 44px;
+}
+
+.text--medium{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text--small{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+body{
+    font-family: var(--font__family);
+}
+
+
+
+
